@@ -1,0 +1,28 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+#img-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#image {
+    align-self: center;
+    max-width: 100%;
+}
