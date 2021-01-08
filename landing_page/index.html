@@ -12,22 +12,38 @@
 
 <body>
     <header id="header">
-        <img src="../portfolio/images/profile_pic_400x533.jpg" alt="" id="header-img">
+        <img src="https://www.pound250.com/wp-content/uploads/2015/05/generic-globe-vector-logo.jpg" alt="header"
+            id="header-img">
+
         <nav id="nav-bar">
-            <a href="#video" class="nav-link">Link 1</a>
-            <a href="#form" class="nav-link">Link 2</a>
-            <a href="#submit" class="nav-link">Link 3</a>
+            <ul>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">Products</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">Contact</a>
+                </li>
+
+            </ul>
         </nav>
     </header>
+    <main>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/qYHp-5h1y5o" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </main>
 
-    <iframe id="video" width="420" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe>
-
-    <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <input type="email" id="email" placeholder="Email" name="email">
-        <input type="submit" id="submit">
-    </form>
+    <section id="about">
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input type="email" id="email" placeholder="Enter Email" name="email">
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </section>
+    <section id="products"></section>
+    <section id="contact"></section>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
