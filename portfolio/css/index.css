@@ -16,6 +16,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+nav {
+    position: fixed;
+    top: 0;
+}
+
 .background-picture {
     height: 100%;
 
@@ -40,6 +45,10 @@ body {
 .hero .container .description {
     margin: 30px;
     width: 50%;
+}
+
+#welcome-section {
+    height: 100vh;
 }
 
 .hero img {
