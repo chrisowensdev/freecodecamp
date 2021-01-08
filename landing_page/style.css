@@ -20,4 +20,9 @@ header img {
     height: 200px;
 }
 
+nav {
+    position: fixed;
+    top: 0;
+}
+
 @media screen and (max-width: 600px) {}
